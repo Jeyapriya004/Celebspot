@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Celebrities Manager</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="./celeb.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Diphylleia&family=Lora:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <div class="container-fluid">
+    <header class="d-flex flex-wrap justify-content-center py-3">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+        <span class="fs-4">CelebSpot</span>
+      </a>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+        <li class="nav-item"><a href="#feature" class="nav-link">Features</a></li>
+        <li class="nav-item"><a href="about page in html/about.html" class="nav-link">About</a></li>
+      </ul>
+    </header>
+
+    <div class="background-video">
+      <video autoplay loop muted playsinline>
+        <source src="face.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <div class="centered-content">
+      <div class="container-fluid">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img id="face" src="./face-recogn.gif" class="d-block mx-lg-auto img-fluid" alt="Face">
+          </div>
+          <div id="faceContent" class="col-lg-6">
+            <h1 id="fontcolor">Face Detection</h1>
+            <p class="lead" style="font-size: 30px;">The Real-Time Face Detection system is a sophisticated application that leverages advanced computer vision techniques to detect and analyze human faces in real-time through a live camera feed. This technology holds a wide range of practical applications and surveillance to user experience enhancement</p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-content">
+      <div class="content">
+        <h5 style="font-size: 35px; color: rgb(108, 212, 231); margin-bottom:20px;">Dynamic Celebrity Management</h5>
+        <p>
+          The Celebrity Recognition Platform is a dynamic web application designed to streamline the process of detecting and managing celebrity data.
+        </p>
+        <p>
+          This integrated platform provides users with a comprehensive and interactive solution for exploring celebrity data, experiencing real-time detection, and actively contributing to the platform's dataset for ongoing improvement.
+        </p>
+      </div>
+    </div>
+
+    <div id="feature" class="feature">
+      <div class="fi feature-1">
+        <div class="list-img"><img class="list" src="list.gif" alt="list" width="55px" height="55px"></div>
+        <div class="list-content">
+          <h5 class="head-color-5">Celebrity Data Listing</h5>
+          <p class="para">The homepage elegantly showcases organized celebrity data in a tabular format, facilitating effortless browsing and targeted searches.</p>
+        </div>
+      </div>
+
+      <div class="fi feature-2">
+        <div class="list-img"><img class="list" src="facecam.gif" alt="list" width="55px" height="55px"></div>
+        <div class="list-content">
+          <h5 class="head-color-5">Live Video Feed with Detection</h5>
+          <p class="para">Homepage buttons lead users to live video feeds, employing advanced algorithms to detect celebrities in real time—an engaging experience.</p>
+        </div>
+      </div>
+
+      <div class="fi feature-3">
+        <div class="list-img"><img class="list" src="data.gif" alt="list" width="55px" height="55px"></div>
+        <div class="list-content">
+          <h5 class="head-color-5">Dataset Management</h5>
+          <p class="para">Platform offers dataset management. Users add data, enhancing algorithm accuracy through integrated integration.</p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div id="centered" class="bg text-secondary px-4 py-5 text-center">
+      <div class="py-5">
+        <h1 class="display-5 fw-bold text-white">Enhance Trust and Safety on Your Platform</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="fs-5 mb-4">Our hackathon entry develops an AI-driven tool for accurate celebrity recognition. This technology reinforces authenticity on platforms by ensuring the veracity of public figures in photos. Our project underscores the potential of AI in fostering trust within digital spaces.</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold" fdprocessedid="v3445c">CelebSpot</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div id="human" class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="human.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="500" height="500" >
+      </div>
+      <div class="col-lg-6">
+        <h1 id="celeb" class="fw-bold">Unveil Celebrity Recognition:</h1>
+        <p class="lead"> Our innovation wields computer vision to identify renowned figures in images. Enhancing trust and security, our hackathon project aligns with the theme, creating a new era of accuracy and authenticity in the digital realm.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        </div>
+      </div>
+    </div>
+
+    <div class="try">
+
+      
+      <h5>Are you prepared to begin?</h5>
+      <h3 style="margin-left: 35px;">Give A TRY!</h3>
+    </div>
+
+    <div class="row flex-lg-row-reverse align-items-center g-2 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="celebtable.jpg"  class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+      </div>
+    <div class="col-lg-6">
+      <div class="steps">
+      
+      <h5>Step 1: Registration of Faces</h5>
+      <ol style="list-style-type:disc;">
+        <li>Go to Home Page and click "Celeb Detect."</li>
+        <li>Click "Add," capture the celebrity's image, and enter details.</li>
+        <li>Save to register. Repeat for other celebrities.</li>
+      </ol>
+      <h5>Step 2: Face Detection</h5>
+      <ol style="list-style-type:disc;">
+        <li>Return to Home Page and click "Celeb Detect."</li>
+        <li>Click "Detect," capture your face through live cam.</li>
+        <li>Application displays detected celebrity's name and info.</li>
+        <li>Repeat for different images. Remember privacy and ethics.</li>
+      </ol>
+      </div>
+        
+    </div>
+  </div>
+
+      
+
+
+    
+
+
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="bg.png" class="d-block w-100 " alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <blockquote class=" blockquote  blockquote--quoted">
+              <p class="slide-text-color ">Face detection is the foundational step towards enabling machines to comprehend and interact with human emotions. </p>
+              <p class="blockquote__text--credit">John Doe</p>
+            </blockquote>
+            
+          </div>
+          
+        </div>
+        <div class="carousel-item">
+          
+          <img src="bg.png" class="d-block w-100 " alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <blockquote class=" blockquote  blockquote--quoted">
+              <p class="slide-text-color">In the realm of computer vision, face detection is like teaching a machine to see the windows to the soul. </p>
+              <p class="blockquote__text--credit">Jane Smith</p>
+            </blockquote>
+            
+          </div>
+          
+        </div>
+        <div class="carousel-item">
+          <img src="bg.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <blockquote class=" blockquote  blockquote--quoted">
+              <p class="slide-text-color">As technology advances, the precision of face detection paves the way for more secure authentication and personalized user experiences.</p>
+              <p class="blockquote__text--credit"> Alex Chen</p>
+            </blockquote>
+            
+          </div>
+          
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+          <span id="foot" class="mb-3 mb-md-0 ">© 2023 team Developers</span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+          <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+          <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+        </ul>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
